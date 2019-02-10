@@ -1,0 +1,30 @@
+{
+    "development": {
+        "port": 3000,
+        "db": {
+            "url":"mongodb://localhost:27017",
+            "name":"TradingManagementPlatform"
+        }
+    },
+    "testing": {
+        "port": 3000,
+        "db": {
+            "url":"mongodb://localhost:27017",
+            "name":"TradingManagementPlatform"
+        }
+    },
+    "staging": {
+        "port": 3000,
+        "db": {
+            "url":"mongodb://localhost:27017",
+            "name":"TradingManagementPlatform"
+        }
+    },
+    "production": {
+        "port": 3000,
+        "db": {
+            "url":"mongodb://localhost:27017",
+            "name":"TradingManagementPlatform"
+        }
+    }
+}
