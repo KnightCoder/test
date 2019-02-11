@@ -1,15 +1,16 @@
 # Trading Management Platform server
 
 
+
 ## API Specs
 
- 1. **Erasing all the trades**
+ 1. **Erasing all the trades**   
     URL: http://localhost:3000/erase
     Method: DELETE
     Success response: HTTP response status code 200
     
     
- 2. **Adding new trades**
+ 2. **Adding new trades**   
     URL: http://localhost:3000/trades
     Method: POST
     Success response: HTTP response status code 201
@@ -96,13 +97,13 @@
         }
     ]
     
- 3. **Returning all the trades**
+ 3. **Returning all the trades**  
     URL: http://localhost:3000/trades
     Method: GET
     Success response: HTTP response status code 200
     Resulting JSON will be sorted in ascending order of the trade ID.
     
- 4. **Returning the trade records filtered by the user ID**
+ 4. **Returning the trade records filtered by the user ID**  
     URL: http://localhost:3000/trades/users/{userID}
     Method: GET
     Success response: HTTP response status code 200
@@ -111,7 +112,7 @@
     Sample URL: http://localhost:3000/trades/users/122
     
  5. **Returning the trade records filtered by the stock symbol and trade
-    type in the given date range**
+    type in the given date range**  
     URL: http://localhost:3000/stocks/{stockSymbol}/trades?type={tradeType}&start={startDate}&end={endDate}
     Method: GET
     Success response: HTTP response status code 200
@@ -120,7 +121,7 @@
     Sample URL: http://localhost:3000/stocks/ghi/trades?type=buy&start=2019-02-01T08:20:00.000Z&end=2019-02-10T08:20:00.000Z
     
  6. **Returning the highest and lowest price for the stock symbol in the
-    given date range**
+    given date range**  
     URL: http://localhost:3000/stocks/{stockSymbol}/price?start={startDate}&end={endDate}
     Method: GET
     Success response: HTTP response status code 200
@@ -188,16 +189,8 @@ The schema of this collection will be:
 		name: String
 	},
 	symbol: String,
-    shares: {
-        type: Number,
-        min : 10,
-        max : 30
-    },
-    price: {
-        type: Number,
-        min : 130.42,
-        max : 195.65
-    },
+    shares: Number,
+    price: Number,
     timestamp: Date
 
 Sample data that we may use to fill this database now or later can be: 
