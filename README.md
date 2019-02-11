@@ -141,6 +141,8 @@ Following is a very high level rough class diagram.
 
 ## Instructions to install and build
 
+Let's say we assume that you have cloned the project on to a **\server** folder.
+
 Configurations:
 To configure the server you might need to edit the config file placed at **\server\src\config\public.json** depending on the server environment.  
 
