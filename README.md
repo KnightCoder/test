@@ -7,7 +7,7 @@ Following is a very high level rough class diagram.
 ## API Specs
 
  1. **Erasing all the trades**   
-    URL: http://localhost:3000/erase
+    URL: http://localhost:3000/erase  
     Method: DELETE
     Success response: HTTP response status code 200
     
@@ -18,6 +18,10 @@ Following is a very high level rough class diagram.
     Success response: HTTP response status code 201
     Failure response: HTTP response status code 400
     Sample HTTP request body:
+
+
+Sample data that we may use to fill this database now or later can be: 
+
     [
         {
             "id": 2,
@@ -98,7 +102,8 @@ Following is a very high level rough class diagram.
             "timestamp": "2019-02-03T08:20:00.000Z"
         }
     ]
-    
+
+
  3. **Returning all the trades**  
     URL: http://localhost:3000/trades
     Method: GET
