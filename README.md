@@ -1,6 +1,8 @@
 # Trading Management Platform server
 
-
+## Class diagram  
+Following is a very high level rough class diagram.
+![class diagram](https://github.com/KnightCoder/test/blob/master/class_diagram.png)
 
 ## API Specs
 
