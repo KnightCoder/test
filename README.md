@@ -144,12 +144,11 @@ Following is a very high level rough class diagram.
 Configurations:
 To configure the server you might need to edit the config file placed at **\server\src\config\public.json** depending on the server environment.  
 
-Install dependencies:  
 Install the following dependencies on your server:  
- [node.js](https://nodejs.org/en/)   
- [Yarn](https://yarnpkg.com/en/) package manager  
- [MongoDB](https://www.mongodb.com/)  
- [Postman](https://www.getpostman.com/)  
+  1. [node.js](https://nodejs.org/en/)   
+  1. [Yarn](https://yarnpkg.com/en/) package manager  
+  1. [MongoDB](https://www.mongodb.com/)  
+  1. [Postman](https://www.getpostman.com/)  
  
  Once the dependent Softwares are installed successfully. Go to the **\server** folder in command prompt using an administrator mode type the following:  
 
@@ -160,9 +159,9 @@ There are a few ways how you may run the project, once all the dependencies are 
  1. Using node  
  For this you will simply have to open your command prompt from the   
  **\server** folder and run the following command   
-
-    node src/index.js
-
+    
+    node src/index.js  
+        
  3. Using npm run scripts  
  For this you will simply have to open your command prompt from the   
  **\server** folder and run the following command  
