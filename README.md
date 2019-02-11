@@ -143,8 +143,8 @@ Following is a very high level rough class diagram.
 
 Let's say we assume that you have cloned the project on to a **\server** folder.
 
-Configurations:
-To configure the server you might need to edit the config file placed at **\server\src\config\public.json** depending on the server environment.  
+Configurations:  
+To configure the server you might need to edit the config file placed at **\server\src\config\public.json** depending on the server environment.    
 
 Install the following dependencies on your server:  
   1. [node.js](https://nodejs.org/en/)   
@@ -159,20 +159,17 @@ Install the following dependencies on your server:
 There are a few ways how you may run the project, once all the dependencies are installed. These are:  
 
  1. Using node  
- For this you will simply have to open your command prompt from the   
- **\server** folder and run the following command   
+ For this you will simply have to open your command prompt from the **\server** folder and run the following command   
     
     node src/index.js  
         
  3. Using npm run scripts  
- For this you will simply have to open your command prompt from the   
- **\server** folder and run the following command  
+ For this you will simply have to open your command prompt from the **\server** folder and run the following command  
 
     npm run start
 
  3. Using nodemon  
- For this you will simply have to open your command prompt from the   
- **\server** folder and run the following command   
+ For this you will simply have to open your command prompt from the **\server** folder and run the following command   
 
     nodemon
 
