@@ -19,87 +19,87 @@ Following is a very high level rough class diagram.
     Failure response: HTTP response status code 400  
     Sample HTTP request body:  
 
-
-    [
-        {
-            "id": 2,
-            "type": "buy",
-            "user":
-            {
-                "id": 122,
-                "name": "zyx"
-            },
-            "symbol": "ABC",
-            "shares": 30,
-            "price": 180,
-            "timestamp": "2019-01-31T08:00:00.000Z"
-        },
-        {
-            "id": 3,
-            "type": "buy",
-            "user":
-            {
-                "id": 1,
-                "name": "aaa"
-            },
-            "symbol": "def",
-            "shares": 25,
-            "price": 142,
-            "timestamp": "2019-02-01T08:20:00.000Z"
-        },
-        {
-            "id": 1,
-            "type": "sell",
-            "user":
-            {
-                "id": 123,
-                "name": "bbb"
-            },
-            "symbol": "def",
-            "shares": 15,
-            "price": 190,
-            "timestamp": "2019-01-28T08:20:00.000Z"
-        },
-        {
-            "id": 4,
-            "type": "buy",
-            "user":
-            {
-                "id": 123,
-                "name": "bbb"
-            },
-            "symbol": "ghi",
-            "shares": 30,
-            "price": 144,
-            "timestamp": "2019-02-02T08:20:00.000Z"
-        },
-        {
-            "id": 5,
-            "type": "sell",
-            "user":
-            {
-                "id": 122,
-                "name": "zyx"
-            },
-            "symbol": "ghi",
-            "shares": 30,
-            "price": 160,
-            "timestamp": "2019-02-03T08:20:00.000Z"
-        },
-        {
-            "id": 6,
-            "type": "buy",
-            "user":
-            {
-                "id": 1,
-                "name": "aaa"
-            },
-            "symbol": "ghi",
-            "shares": 10,
-            "price": 130.42,
-            "timestamp": "2019-02-03T08:20:00.000Z"
-        }
-    ]
+    
+    [    
+        {    
+            "id": 2,    
+            "type": "buy",    
+            "user":    
+            {    
+                "id": 122,    
+                "name": "zyx"    
+            },    
+            "symbol": "ABC",    
+            "shares": 30,    
+            "price": 180,    
+            "timestamp": "2019-01-31T08:00:00.000Z"    
+        },    
+        {    
+            "id": 3,    
+            "type": "buy",    
+            "user":    
+            {    
+                "id": 1,    
+                "name": "aaa"    
+            },    
+            "symbol": "def",    
+            "shares": 25,    
+            "price": 142,    
+            "timestamp": "2019-02-01T08:20:00.000Z"    
+        },    
+        {    
+            "id": 1,    
+            "type": "sell",    
+            "user":    
+            {    
+                "id": 123,    
+                "name": "bbb"    
+            },    
+            "symbol": "def",    
+            "shares": 15,    
+            "price": 190,    
+            "timestamp": "2019-01-28T08:20:00.000Z"    
+        },    
+        {    
+            "id": 4,    
+            "type": "buy",    
+            "user":    
+            {    
+                "id": 123,    
+                "name": "bbb"    
+            },    
+            "symbol": "ghi",    
+            "shares": 30,    
+            "price": 144,    
+            "timestamp": "2019-02-02T08:20:00.000Z"    
+        },    
+        {    
+            "id": 5,    
+            "type": "sell",    
+            "user":    
+            {    
+                "id": 122,    
+                "name": "zyx"    
+            },    
+            "symbol": "ghi",    
+            "shares": 30,    
+            "price": 160,    
+            "timestamp": "2019-02-03T08:20:00.000Z"    
+        },    
+        {    
+            "id": 6,    
+            "type": "buy",    
+            "user":    
+            {    
+                "id": 1,    
+                "name": "aaa"    
+            },    
+            "symbol": "ghi",    
+            "shares": 10,    
+            "price": 130.42,    
+            "timestamp": "2019-02-03T08:20:00.000Z"    
+        }    
+    ]    
 
 
  3. **Returning all the trades**  
