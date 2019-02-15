@@ -2,8 +2,6 @@ const express = require('express');
 const app = express();
 const mongoose = require("mongoose");
 
-mongoose.Promise = global.Promise;
-
 const publicConfig = require("../config/public");
 const config = publicConfig[app.get('env')];
 
